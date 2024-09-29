@@ -4,9 +4,11 @@ import "./Banner.css"
 export const Banner = () => {
     //JSX
     return (
-        <header className="banner">
-            <img src="/imagens/banner.png" alt="O banner principal do Organo"/>
-        </header>
-        
+        <>
+            <header className="banner">
+                <img src="/imagens/banner.png" alt="O banner principal do Organo" />
+            </header>
+            <h1>Teste</h1>
+        </>
     )
 }
